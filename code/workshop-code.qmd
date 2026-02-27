@@ -138,7 +138,6 @@ slice_sample(
   n = 10 
 )
 ```
-slicing
 
 Insert code to display 10 random rows from the data frame here.  
 
