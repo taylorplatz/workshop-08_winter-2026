@@ -1,8 +1,8 @@
 ---
 title: "Workshop 8 TEMPLATE"
-subtitle: "insert your section time here"
-author: "insert your name here"
-date: "insert your name here"
+subtitle: "9 AM"
+author: "Taylor Platz"
+date: "2026-02-27"
 format:
   html:
     toc: true # use this to display a table of contents
@@ -45,14 +45,20 @@ library(MuMIn) # model selection
 
 # read in your data here
 
-
+drought_exp <- read_xlsx(
+  path = here(
+    "data",
+    "Valliere_etal_EcoApps_Data.xlsx"
+  ),
+  sheet = "First Harvest"
+)
 
 ```
 
 ```{r}
 #| label: plot colors and aesthetics
 
-# storing colors to use for species
+# storing colors to use for species, saving all colors as objects
 lotsco_col <- "#E69512"
 pencen_col <- "#D6264F"
 salleu_col <- "#6D397D"
