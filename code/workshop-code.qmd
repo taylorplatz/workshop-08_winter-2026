@@ -132,13 +132,13 @@ str(drought_exp_clean)
 
 
 ```{r}
-
+   
 slice_sample(
   drought_exp_clean,
-  n = 10
+  n = 10 
 )
 ```
-
+slicing
 
 Insert code to display 10 random rows from the data frame here.  
 
